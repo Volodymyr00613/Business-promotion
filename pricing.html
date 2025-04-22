@@ -3,36 +3,68 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pricing</title>
+    <title>Business promotion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"
-          ><img src="./images/logo.svg" alt="logo" />Product</a
-        >
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="/pricing.html">Pricing</a></li>
-          <li><a href="">Resources</a></li>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <a class="logo" href="./index.html"
+            ><img src="./images/logo.svg" alt="logo" />Product</a
+          >
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="./index.html">Product</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="./customers.html">Customers</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link active" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link" href="">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="heder-list-btn">
+          <li class="header-item-btn">
+            <button class="header-btn header-btn-in" type="button">
+              Sign in
+            </button>
+          </li>
+          <li class="header-item-btn">
+            <button class="header-btn header-btn-up" type="button">
+              Sign up
+            </button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign in</button></li>
-        <li><button type="button">Sign up</button></li>
-      </ul>
+      </div>
     </header>
 
-
     <main>
-
       <!-- Pricing -->
 
       <section>
         <h1>PRICING</h1>
         <p>Let’s get some real work done here.</p>
-        <p>Prodict is your perfect solution for working. Get started now for free</p>
+        <p>
+          Prodict is your perfect solution for working. Get started now for free
+        </p>
         <ul>
           <li>
             <h3>Free</h3>
@@ -66,10 +98,13 @@
 
       <!-- ENTERPRISE -->
 
-    <section>
+      <section>
         <h2>ENTERPRISE</h2>
-        <p>Are you interested  in a custom-tailored plan?</p>
-        <p>Product is a set of advanced features for really large teams with projects.</p>
+        <p>Are you interested in a custom-tailored plan?</p>
+        <p>
+          Product is a set of advanced features for really large teams with
+          projects.
+        </p>
         <button type="button">Get in touch with us</button>
       </section>
 
@@ -77,19 +112,28 @@
 
       <section>
         <h2>Product is being used with great effects alongside:</h2>
-        <img src="./images/amico-min.png" alt="amico" width="528">
+        <img src="./images/amico-min.png" alt="amico" width="528" />
         <ul>
           <li>
             <h3>Enterpreneur</h3>
-            <p>Product is a great way to help medium and samall enterprise owners achieve their goals</p>
+            <p>
+              Product is a great way to help medium and samall enterprise owners
+              achieve their goals
+            </p>
           </li>
           <li>
             <h3>Accountants</h3>
-            <p>Whether you are working on contract with clients, or on other key accounting documents, Product is for you</p>
+            <p>
+              Whether you are working on contract with clients, or on other key
+              accounting documents, Product is for you
+            </p>
           </li>
           <li>
             <h3>Universities</h3>
-            <p>Organize university projects and have documents easily graded online with Product</p>
+            <p>
+              Organize university projects and have documents easily graded
+              online with Product
+            </p>
           </li>
         </ul>
       </section>
@@ -104,7 +148,13 @@
           <li>
             <ul>
               <li>How can I invite collaborator to platform?</li>
-              <li>After creating your account you will have an oppurtunity to create your first project that will be associated withthe collaborators e-mail. An invitation  will be sent automatically. Then, invited user will have to confirm his account by e-mail and finish userd onboarding.</li>
+              <li>
+                After creating your account you will have an oppurtunity to
+                create your first project that will be associated withthe
+                collaborators e-mail. An invitation will be sent automatically.
+                Then, invited user will have to confirm his account by e-mail
+                and finish userd onboarding.
+              </li>
             </ul>
           </li>
           <li>Can I upgrade my plan</li>
@@ -117,11 +167,11 @@
       <section>
         <p>Join 100 Compannies who boost their business with Product</p>
         <button type="button">Get This</button>
-        <img src="./images/screen-min.png" alt="screen" width="351">
+        <img src="./images/screen-min.png" alt="screen" width="351" />
       </section>
     </main>
-      
-     <footer>
+
+    <footer>
       <a href="./index.html"
         ><img src="./images/logo.svg" alt="logo" />Product
       </a>
